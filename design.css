@@ -1,0 +1,8 @@
+.Bulbs {
+    width: 150px;
+    height: 200px;
+}
+
+.ON {
+    -webkit-filter: invert(100%);filter: invert(100%);
+}

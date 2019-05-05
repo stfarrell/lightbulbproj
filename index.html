@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Light Bulb Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="design.css" type="text/css" />
+  </head>
+  <body class="brown">
+      <audio src="click.mp3" id="click2"></audio>
+      <div class="container brown lighten-2">
+          <div class="row">
+              <h1 class="center-align">Light Bulb Game</h1>
+          </div>
+          
+          <!--Row 1 - Bulbs-->
+          <div class="row center-align">
+              <div class="col s2 Bulbs" id="LB1">
+                  <img src="LBoff2.PNG" ></img>
+              </div>
+              <div class="col s2 Bulbs" id="LB2">
+                  <img src="LBoff2.PNG"></img>
+              </div>
+              <div class="col s2 Bulbs" id="LB3">
+                  <img src="LBoff2.PNG"></img>
+              </div>
+              <div class="col s2 Bulbs" id="LB4">
+                  <img src="LBoff2.PNG"></img>
+              </div>
+              <div class="col s2 Bulbs" id="LB5">
+                  <img src="LBoff2.PNG"></img>
+              </div>
+              <div class="col s2 Bulbs" id="LB6">
+                  <img src="LBoff2.PNG"></img>
+              </div>
+              
+              <div class="divider"></div>
+              
+              <!--Row 2 - buttons-->
+              <div class="row center-align">
+                  <div class="col s2">
+                      <div class="btn waves-effect btn-large red darken-2" id="switch1">Switch 1</div>
+                  </div>
+                  <div class="col s2">
+                      <div class="btn waves-effect btn-large red darken-2" id="switch2">Switch 2</div>
+                  </div>
+                  <div class="col s2">
+                      <div class="btn waves-effect btn-large red darken-2" id="switch3">Switch 3</div>
+                  </div>
+                  <div class="col s2">
+                      <div class="btn waves-effect btn-large red darken-2" id="switch4">Switch 4</div>
+                  </div>
+                  <div class="col s2">
+                      <div class="btn waves-effect btn-large red darken-2" id="switch5">Switch 5</div>
+                  </div>
+                  <div class="col s2">
+                      <div class="btn waves-effect btn-large red darken-2" id="switch6">Switch 6</div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="row winner"></div>
+      </div>
+  
+  
+   <!--script tags for jquery, materialize, and local javascript-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
